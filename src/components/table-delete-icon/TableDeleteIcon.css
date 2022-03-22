@@ -1,0 +1,14 @@
+table div.table-delete-icon-wraper {
+  background: rgba(17, 85, 204, 0.15);
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+table div.table-delete-icon-wraper svg {
+  width: 8px;
+  height: 8px;
+}

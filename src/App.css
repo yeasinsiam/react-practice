@@ -1,0 +1,39 @@
+* {
+  /* font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600; */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #000000;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin-right: 10.3px;
+}
+input {
+  border: none;
+  outline: none;
+  width: inherit;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.form-input {
+  background: #f5f7f9;
+  border-radius: 5px;
+  padding: 12px 0px;
+  padding-left: 16px;
+}
+
+.cross-svg-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}

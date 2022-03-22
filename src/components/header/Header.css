@@ -1,0 +1,69 @@
+header.header {
+  background: #f8fbff;
+}
+header.header div.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+/* logo part */
+header.header div.container div.logo {
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+header.header div.container div.logo span:nth-child(1) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.4819px;
+  line-height: 28px;
+}
+header.header div.container div.logo span:nth-child(2) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.4819px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  width: 28.25px;
+  height: 28.25px;
+  display: inline-block;
+  text-align: center;
+  background: #1155cc;
+  border-radius: 0.830979px;
+  margin: 0px 4.83px 0px 5.25px;
+}
+
+header.header div.container div.logo span:nth-child(3) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.4819px;
+  line-height: 28px;
+  text-transform: none;
+}
+
+/* nav menu code */
+header.header div.container nav ul li {
+  display: inline-block;
+  margin-left: 35px;
+  font-family: "Segoe UI";
+  text-transform: capitalize;
+}
+header.header div.container nav ul li a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5e5e5e;
+}
+
+header.header div.container nav ul li a.link-button {
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 6px 18px 7px 18px;
+  background: #1155cc;
+  border-radius: 28.9474px;
+}

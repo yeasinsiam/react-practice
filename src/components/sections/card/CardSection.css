@@ -1,0 +1,204 @@
+/* card section */
+main.main div.container div.body section.card-section {
+  padding: 20px 0px;
+}
+main.main div.container div.body section.card-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main.main div.container div.body section.card-section table thead {
+  border-top: 2px solid #eaedf8;
+  border-bottom: 2px solid #eaedf8;
+  /* opacity: 0.95; */
+}
+
+main.main div.container div.body section.card-section table thead th {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 0;
+  color: #3a3b3f;
+}
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  thead
+  th:nth-child(1) {
+  padding-left: 10px;
+}
+
+/* table boyd */
+
+main.main div.container div.body section.card-section table tr td {
+  padding: 15px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3a3b3f;
+}
+main.main div.container div.body section.card-section table tr td > input {
+  font-size: 14px;
+  line-height: 21px;
+  color: #3a3b3f;
+}
+
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tbody
+  tr
+  td:nth-child(1) {
+  padding-left: 15px;
+}
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tbody
+  tr
+  td:last-child {
+  /* background: red; */
+  padding: 15px 10px;
+}
+
+main.main div.container div.body section.card-section table tbody tr td input {
+  width: 90%;
+}
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tbody
+  tr
+  td:nth-child(1)
+  input {
+  width: 95%;
+}
+
+/* table footer */
+main.main div.container div.body section.card-section table tfoot {
+  border-top: 2px solid #eaedf8;
+}
+main.main div.container div.body section.card-section table tfoot tr td {
+  padding: 15px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr:first-child
+  td {
+  padding-top: 20px;
+}
+/* main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr:last-child
+  td {
+  padding-top: 20px;
+} */
+
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr:first-child
+  td:first-child {
+  padding-left: 10px;
+}
+
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr:first-child
+  td:last-child {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3a3b3f;
+}
+/* add discount */
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr:nth-child(2)
+  td
+  > input {
+  width: 100%;
+}
+/* add tax */
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr:nth-child(3)
+  td
+  > input {
+  width: 100%;
+}
+
+/* totals */
+main.main div.container div.body section.card-section table tfoot tr.total td {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3a3b3f;
+}
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  tr.total
+  td.total-br {
+  border-top: 2px solid #eaedf8;
+}
+
+main.main
+  div.container
+  div.body
+  section.card-section
+  table
+  tfoot
+  .tfoot-green-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1155cc;
+  cursor: pointer;
+}

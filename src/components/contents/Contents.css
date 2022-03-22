@@ -1,0 +1,29 @@
+/* * {
+  color: red;
+} */
+
+main.main {
+  background-color: #f2f3f7;
+}
+
+main.main > .container {
+  background-color: #f2f3f7;
+  padding: 84px 0px 35px 0px;
+}
+
+main.main div.container div.body {
+  width: 75%;
+  background: #ffffff;
+  box-shadow: 1px 1px 10px rgba(74, 74, 74, 0.02);
+  border-radius: 5px;
+}
+
+@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  main.main div.container div.body {
+    width: 100%;
+  }
+}
+
+main.main div.container div.body .container {
+  width: 95%;
+}
